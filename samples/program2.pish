@@ -1,0 +1,12 @@
+a = 1;
+b = a + a;
+c = a * b + a;
+d = a - -b* a + a;
+e = (b + c + b) * (a+d) / (c*b);
+f = b + c + b * (a+d) / (c*b);
+print a;
+print b;
+print c;
+print d;
+print e;
+print f;

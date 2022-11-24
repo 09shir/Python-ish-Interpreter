@@ -1,0 +1,7 @@
+a = 1;
+b = 3;
+while not a > 100 {
+    print a;
+    a = a + b;
+    b = b - -2;
+}

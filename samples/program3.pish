@@ -1,0 +1,7 @@
+a = 77 ;
+b = 58 ;
+c = 28 ;
+if a / 7 * 7 == a { print a; }
+if b / 7 * 7 == b { print b; }
+if c / 7 * 7 == c { print c; }
+

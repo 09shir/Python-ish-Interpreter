@@ -1,0 +1,15 @@
+n = 100;
+p = 2;
+while p <= n {
+    numfactors = 0;
+    divisor = 2;
+    while divisor * divisor <= p {
+        if p / divisor * divisor == p {
+            numfactors = numfactors + 1;
+        }
+        divisor = divisor + 1;
+    }
+    if numfactors == 0 { print p; }
+    p = p + 1;
+}
+

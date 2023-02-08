@@ -1,6 +1,12 @@
 # Python-ish-Interpreter
 
-A program that executes a pared-down version of Python (Pish, as Python-ish) using C++ compiler
+A program that executes a pared-down version of Python (Pish, as Python-ish) using C++ compiler.
+
+## Behind the Program
+
+It is achieved by converting the Python-ish code into pieces of commands in a binary tree, and the program then executes the binary tree in post-order-traversal. Variables are stored in an open address hash table upon declaration.
+
+![FOTP](./sample.png)
 
 ## To Run
 
